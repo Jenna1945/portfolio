@@ -33,3 +33,77 @@ body {
     background-attachment: fixed;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+ /*----------------------- nav bar -----------------------*/
+ .menu {
+    display: grid;
+    grid-auto-flow: column;
+   text-align: end;
+   background-color: #8004cc;
+}
+
+.logo {
+    width: 75px;
+    float: left;
+}
+
+/*adds customizations to nav bar links*/
+li {
+    display: inline-block;
+    text-align: center;
+    color: #ffffff;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 17px;
+} 
+
+.a:link {
+    color: #636363;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.menuopen a {
+    text-decoration: none;
+  }
+
+/*creates a hover effect when hovering over nav bar links*/
+a:hover{
+    background-color: white;
+    color: #333;
+}
+
+/*----------- Headliner -------------*/
+
+h1 {
+    font-size: 5rem;
+    text-align: center;
+    padding-top: 3rem;
+    color: white;
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.6);
+    font-weight: bold;
+}
+
+/*  --------------- skip link --------------- */
+.skip-link {
+        
+    position: absolute;
+    top: -30px;
+    text-decoration: none;
+    overflow: hidden;
+}
+  
+.skip-link:focus {
+    top: auto;
+    overflow: visible;
+    padding: 10px;
+    background-color: #e0e0e0;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
