@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <title>Home</title>
 </head>
 <body>
@@ -39,9 +40,77 @@
                     <div class="banner-text">
                         <h1 role="heading">HOME</h1>
                     </div>
-                </div>
-            </div> 
+                    <div class="moto">
+                        <h2>Bringing your Designs to Life</h2>
+                    </div> <!-- ends moto div -->
+                </div> <!-- ends banner div -->
+            </div> <!-- ends container div -->
         </section>
+
+        <!-- div with a class of wrapper1 to contain the pages contents -->
+         <div class="wrapper1">
+            <section class="home-content">
+                <!-- div with class of ourstudio used to display elements inline -->
+                <div class="home-info">
+
+                    <picture>
+                        <source srcset="./images/guitar-1000-x-667.jpg" class="guitar" media="(max-width: 800px)">
+                        <source srcset="./images/guitar-1500-x-1000.jpg" class="guitar" media="(min-width: 800px)">
+                        <img src="./images/guitar-1500-x-1000.jpg" class="guitar" alt="our studio" aria-label="photo of a guitar" >
+                    </picture>
+                
+                    <div class="home-title" id="home-title">
+                        <h2>WHO WE ARE</h2>
+                    </div> 
+                    <p class="pv1">Digi-Art is a leading UI design company located in the city 
+                        of Ottawa, Canada. We have a passion for creating visually stunning and 
+                        user-friendly digital interfaces, as well as exceptional user experiences 
+                        for businesses and organizations across various industries. When it comes 
+                        to design, we always want to bring our customers unique designs that 
+                        challenge todays modern and minimalistic style.
+                    </p>
+                </div> <!--home info ends here-->
+
+                <div class="home-info2">
+
+                    <picture>
+                        <source srcset="./images/okcomputer-1000-x-667.jpg" class="okcomputer" media="(max-width: 800px)">
+                        <source srcset="./images/okcomputer-1500-x-1000.jpg" class="okcomputer" media="(min-width: 800px)">
+                        <img src="./images/okcomputer-1500-x-1000.jpg" class="okcomputer" alt="sheet music" aria-label="photo of a music sheet" >
+                    </picture>
+                
+                    <p class="pv2">Our team of talented designers and developers combines artistic creativity with technical
+                        expertise to produce cutting-edge user interfaces that captivate, engage, and convert.
+                        Digi-Art's commitment to innovation, quality, and client satisfaction sets them apart as a
+                        trusted partner for businesses seeking to elevate their digital presence in Ottawa and beyond.
+                    </p>
+                </div>
+            </section>
+
+        <hr class="solid">
+
+        <footer>
+            <footer role="contentinfo">
+
+                <h3 class="navigatefooter">Navigate</h3>
+                <ul class="menuopen">
+                    <li><a href="./index.html" aria-label="Home Page Section">H O M E</a></li>
+                    <li><a href="./about.html" aria-label="About Page Section">A B O U T</a></li>
+                    <li><a href="./contact.html" aria-label="Contact Page Section">C O N T A C T</a></li>
+                </ul>  
+            
+                <div class="follow-us">
+                  <div class="social-icons">
+                    <i class="social-icon fab fa-twitter"></i>
+                    <i class="social-icon fab fa-instagram"></i>
+                    <i class="social-icon fab fa-youtube"></i>
+                  </div>
+                </div> 
+            
+              <div class="copyright">
+                &copy; 1999 Digi-Art INC.</div>
+            </footer>
+        </footer>
     </main>
     
 </body>
