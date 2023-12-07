@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <title>About</title>
+</head>
+<body>
+    <main role="main">
+        <!-- ----------------- nav bar elements ----------------- -->
+        <header role="banner" class="wrapper">
+            <!-- picture element used to optimise photos for different screen sizes -->
+            <picture>
+                <source srcset="./images/digi-logo-150-x-150.png" class="logo" media="(max-width: 800px)">
+                <source srcset="./images/digi-logo-200-x-200.png" class="logo" media="(min-width: 800px)">
+                <img src="./images/digi-logo-200-x-200.png" class="logo" alt="our logo" aria-label="our logo" >
+            </picture>
+
+            <!-- --------------skip link-------------- -->
+            <a href="#studio-title" class="skip-link" aria-label="Skip to Main Content">Skip to Main Content</a>
+            <!-- nav bar with class of menu -->
+            <nav role="navigation" class="menu">
+
+                    <ul class="menuopen">
+                        <li><a href="./index.html" aria-label="Home Page Section">H O M E</a></li>
+                        <li><a href="./about.html" aria-label="About Page Section">A B O U T</a></li>
+                        <li><a href="./contact.html" aria-label="Contact Page Section">C O N T A C T</a></li>
+                    </ul>                
+            </nav>
+        </header>
+
+         <!-- ------------------ banner elements ----------------- -->
+
+        <!-- div with a class of banner used to display background image with text over -->
+        <section class="mainbanner">
+            <div class="container"> 
+                <div class="banner">
+                    <div class="banner-text">
+                        <h1 role="heading">ABOUT</h1>
+                    </div>
+                    <div class="moto">
+                        <h2>Learn More About What we do</h2>
+                    </div> <!-- ends moto div -->
+                </div> <!-- ends banner div -->
+            </div> <!-- ends container div -->
+        </section>
+
+        <!-- div with a class of wrapper1 to contain the pages contents -->
+        <div class="wrapper1">
+            <section class="about-content">
+
+                <!-- div with class of imgshowcase to allow for grid element to be used for alignment -->            <div class="imgshowcase">
+                    <div class="img-1" id="img-1">
+                        <picture>
+                            <source srcset="./images/temperature-1000-x-1000.jpg" class="studio1" media="(max-width: 800px)">
+                            <source srcset="./images/temperature-1500-x-1500.jpg" class="studio1" media="(min-width: 800px)">
+                            <img src="./images/temperature-1500-x-1500.jpg" class="studio1" alt="photography studio" aria-label="a photo in our studio" >
+                        </picture>
+                        <!-- h2 with class of showcase title to allow for title customisations -->                        <h2 class="showcase-title">WHO WE ARE</h2>
+                        <p class="p4">Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua.
+                        </p>
+                    </div>
+
+                    <div class="img-2">
+                        <picture>
+                            <source srcset="./images/shadow-1000-x-1000.jpg" class="studio1" media="(max-width: 800px)">
+                            <source srcset="./images/shadow-1500-x-1500.jpg" class="studio1" media="(min-width: 800px)">
+                            <img src="./images/shadow-1500-x-1500.jpg" class="studio1" alt="photography shoot" aria-label="photography sessions photo" >
+                        </picture>
+                        <h2 class="showcase-title">OUR VALUES</h2>
+                        <p class="p4">Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua.
+                        </p>
+                    </div>
+
+                    <div class="img-3">
+                        <picture>
+                            <source srcset="./images/keyboard-1000-x-1000.jpg" class="studio1" media="(max-width: 800px)">
+                            <source srcset="./images/keyboard-1500-x-1500.jpg" class="studio1" media="(min-width: 800px)">
+                            <img src="./images/keyboard-1500-x-1500.jpg" class="studio1" alt="camera" aria-label="photo of our cameras" >
+                        </picture>
+
+                        <h2 class="showcase-title">OUR PROMISE</h2>
+                        <p class="p4">Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            </section>
+        </div>
+    
+</body>
+</html>

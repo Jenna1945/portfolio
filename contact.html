@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <title>Contact</title>
+</head>
+<body>
+    <main role="main">
+        <!-- ----------------- nav bar elements ----------------- -->
+        <header role="banner" class="wrapper">
+            <!-- picture element used to optimise photos for different screen sizes -->
+            <picture>
+                <source srcset="./images/digi-logo-150-x-150.png" class="logo" media="(max-width: 800px)">
+                <source srcset="./images/digi-logo-200-x-200.png" class="logo" media="(min-width: 800px)">
+                <img src="./images/digi-logo-200-x-200.png" class="logo" alt="our logo" aria-label="our logo" >
+            </picture>
+
+            <!-- --------------skip link-------------- -->
+            <a href="#studio-title" class="skip-link" aria-label="Skip to Main Content">Skip to Main Content</a>
+            <!-- nav bar with class of menu -->
+            <nav role="navigation" class="menu">
+
+                    <ul class="menuopen">
+                        <li><a href="./index.html" aria-label="Home Page Section">H O M E</a></li>
+                        <li><a href="./about.html" aria-label="About Page Section">A B O U T</a></li>
+                        <li><a href="./contact.html" aria-label="Contact Page Section">C O N T A C T</a></li>
+                    </ul>                
+            </nav>
+        </header>
+
+         <!-- ------------------ banner elements ----------------- -->
+
+        <!-- div with a class of banner used to display background image with text over -->
+        <section class="mainbanner">
+            <div class="container"> 
+                <div class="banner">
+                    <div class="banner-text">
+                        <h1 role="heading">Contact</h1>
+                    </div>
+                    <div class="moto">
+                        <h2>Get in Touch with us</h2>
+                    </div> <!-- ends moto div -->
+                </div> <!-- ends banner div -->
+            </div> <!-- ends container div -->
+        </section>
+
+        <!-- div with a class of wrapper1 to contain the pages contents -->
+        <div class="wrapper1">
+            <section class="contact-content">
+                <div role="form" class="contactus" id="contactus">
+                    <!-- uses div with class of form to create contact form -->
+                    <div class="form">
+                    <div>FIRST NAME*</div>
+                    <textarea class="contactbox" rows="1" cols="33"></textarea>
+                    <div>LAST NAME</div>
+                    <textarea class="contactbox" rows="1" cols="33"></textarea>
+                    <div>EMAIL*</div>
+                    <textarea class="contactbox" rows="1" cols="33"></textarea>
+                    <div>MESSAGE*</div>
+                    <textarea class="contactbox" rows="5" cols="33"></textarea>
+
+                    <p class="message"></p>
+
+
+                    <button type="button" class="contactbutton">Send</button>
+                        </div>
+
+
+            </section>
+        </div>
+    
+</body>
+</html>

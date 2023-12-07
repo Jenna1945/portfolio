@@ -149,6 +149,67 @@ h1 {
     padding-bottom: 30px;
 }
 
+/* --------------- about page --------------- */
+
+.imgshowcase {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.studio1 {
+    width: 250px;
+    padding-bottom: 10px;
+}
+
+.showcase-title {
+    font-size: 22px;
+    padding-bottom: 10px;
+    color: #fff;
+}
+
+.p4 {
+    color: #fff;
+}
+
+
+/* --------------- contact page --------------- */
+
+.contactbox {
+    font-size: 18px;
+    border-radius:10px;
+    margin-bottom: 15px;
+}
+
+.contactus {
+    padding-bottom: 100px;
+    color: #ffffff;
+}
+
+.emailcontact {
+    display: grid;
+}
+
+.contactbutton {
+    width: 120px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #fc04fc;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 15px;
+}
+
+.contactbutton:hover {
+    background-color:#ff96ff;
+}
+
+
 /* ------------------ footer ------------------ */
 hr.solid {
     border-top: 1px solid #ffffff;
@@ -163,6 +224,7 @@ footer {
 
 .navigatefooter {
     color: #ffffff;
+    font-weight: bold;
 }
 
 .social-icon {
@@ -172,6 +234,10 @@ footer {
 }
 
 .copyright {
+    color: #ffffff;
+}
+
+.pv3 {
     color: #ffffff;
 }
 
