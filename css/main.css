@@ -29,8 +29,6 @@ time, mark, audio, video {
     --bs-secondary: #fc04fc;
     --bs-primary-rgb: 128, 4, 204;
     --bs-secondary-rgb: 255, 255, 255;
-    --bs-third-color: #3595B3;
-    --bs-third-rgb: rgb(53, 149, 179);
     --bs-text-color: #fff;
     --bs-text-rgb: rgb(255, 255, 255);
 }
@@ -47,12 +45,6 @@ body {
 }
 
 /*----------------------- nav bar -----------------------*/
-.menu {
-    display: grid;
-    grid-auto-flow: column;
-   text-align: end;
-   background-color: var(--primary-color)
-}
 
 .logo {
     width: 75px;
@@ -61,7 +53,6 @@ body {
 
 /*adds customizations to nav bar links*/
 nav li {
-    display: inline-block;
     text-align: center;
     color: var(--bs-text-color);
     padding: 20px;
@@ -84,11 +75,11 @@ a:visited {
     text-decoration: none;
   }
 
-/*creates a hover effect when hovering over nav bar links*/
+/*creates an underline and bold effect when hovering over nav bar links*/
 a:hover{
-    background-color: var(--bs-text-color);
-    color: var(--primary-color)
-}
+    font-weight: bold;
+   text-decoration: underline;
+} 
 
 /*----------- Headliner -------------*/
 
@@ -189,7 +180,7 @@ h1 {
 }
 
 .contactus {
-    padding-bottom: 100px;
+    padding-bottom: 50px;
     color: var(--bs-text-color);
 }
 
@@ -212,6 +203,17 @@ h1 {
 
 .contactbutton:hover {
     background-color:#ff96ff;
+}
+
+.contact-email {
+    color: var(--bs-text-color);
+    font-size: 1.5rem;
+    padding-bottom: 15px;
+}
+
+.emailcontact {
+    color: var(--bs-text-color);
+    line-height: 25px;
 }
 
 
@@ -252,6 +254,7 @@ footer {
 
 footer li {
     padding-bottom: 5px;
+    list-style-type: none;
 }
 
 .follow-us {
@@ -325,9 +328,10 @@ a:visited {
     text-decoration: none;
 } 
 
-/*creates a hover effect when hovering over nav bar links*/
+/*creates an underline and bold when hovering over nav bar links*/
 a:hover{
    font-weight: bold;
+   text-decoration: underline;
 } 
 
 /*----------- Headliner -------------*/
@@ -410,7 +414,7 @@ h1 {
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
     justify-content: center;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
 
 .studio1 {
@@ -442,7 +446,7 @@ h1 {
 }
 
 .contactus {
-    padding-bottom: 100px;
+    padding-bottom: 50px;
     color: var(--bs-text-color);
 }
 
@@ -466,6 +470,16 @@ h1 {
 .contactbutton:hover {
     background-color:#ff96ff;
 }
+.contact-email {
+    color: var(--bs-text-color);
+    font-size: 1.5rem;
+    padding-bottom: 15px;
+}
+
+.emailcontact {
+    color: var(--bs-text-color);
+    line-height: 25px;
+}
 
 
 /* ------------------ footer ------------------ */
@@ -476,7 +490,6 @@ hr.solid {
 footer {
     display: grid;
     grid-auto-flow: column;
-    /* justify-content: end; */
     padding-top: 10px;
     padding-bottom: 3px;
 }

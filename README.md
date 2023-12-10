@@ -1,6 +1,6 @@
 # Jenna Car Portfolio
 
-Hello!  Welcome to the read me file of my final portfolio.  Below you will find detailed information on my progress completing this assignment, as well as the resources.
+Hello!  Welcome to the read me file of my final portfolio.  Below, you will find detailed information on my progress completing this assignment, as well as the resources.
 
 ## Project Description
 For my final assignment I am designing a website for my made-up company "Digi-Art".  I have been working on designing the branding for this company throughout the entire semester in both my UX class and my CMS class.  With this project, I want to show my ability to create a website with an easy to navigate layout, that also demonstrates my passion for UI design and my capabilties to make things look good.

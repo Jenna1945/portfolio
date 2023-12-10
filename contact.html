@@ -6,33 +6,47 @@
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <title>Contact</title>
+     <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 </head>
 <body>
-    <main role="main">
         <!-- ----------------- nav bar elements ----------------- -->
-        <header role="banner" class="wrapper">
-            <!-- picture element used to optimise photos for different screen sizes -->
-            <picture>
-                <source srcset="./images/digi-logo-150-x-150.png" class="logo" media="(max-width: 800px)">
-                <source srcset="./images/digi-logo-200-x-200.png" class="logo" media="(min-width: 800px)">
-                <img src="./images/digi-logo-200-x-200.png" class="logo" alt="our logo" aria-label="our logo" >
-            </picture>
-
-            <!-- --------------skip link-------------- -->
-            <a href="#banner-text" class="skip-link" aria-label="Skip to Main Content">Skip to Main Content</a>
-            <!-- nav bar with class of menu -->
-            <nav role="navigation" class="menu">
-
-                    <ul class="menuopen">
-                        <li><a href="./index.html" aria-label="Home Page Section">H O M E</a></li>
-                        <li><a href="./about.html" aria-label="About Page Section">A B O U T</a></li>
-                        <li><a href="./contact.html" aria-label="Contact Page Section">C O N T A C T</a></li>
-                    </ul>                
+        <header role="banner" class="bg-dark">
+            <!-- Navigation Bar -->
+            <nav role="navigation" class="navbar navbar-expand-lg bg-primary">
+                <!-- --------------skip link-------------- -->
+                <a href="home-title" class="skip-link" aria-label="Skip to Main Content">Skip to Main Content</a>
+                <!-- picture element used to optimise photos for different screen sizes -->
+                <picture>
+                    <source srcset="./images/digi-logo-150-x-150.png" class="logo" media="(max-width: 800px)">
+                    <source srcset="./images/digi-logo-200-x-200.png" class="logo" media="(min-width: 800px)">
+                    <img src="./images/digi-logo-200-x-200.png" class="logo" alt="our logo" aria-label="our logo" >
+                </picture>
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav w-100 mb-2 mb-lg-0">
+                      <li class="nav-item ms-auto"> 
+                        <a class="nav-link active text-light" aria-current="page" href="./index.html">HOME</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active text-light" aria-current="page" href="./about.html">ABOUT</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active text-light" aria-current="page" href="./contact.html">CONTACT</a>
+                      </li>
+                    </ul>
+                </div>
             </nav>
-        </header>
+          </header>
 
          <!-- ------------------ banner elements ----------------- -->
-
+        <main role="main">
         <!-- div with a class of banner used to display background image with text over -->
         <section class="mainbanner">
             <div class="container"> 
@@ -52,7 +66,7 @@
             <section class="contact-content">
                 <div role="form" class="contactus" id="contactus">
                     <!-- uses div with class of form to create contact form -->
-                    <div class="form">
+                    <div class="form"></div>
                     <div>FIRST NAME*</div>
                     <textarea class="contactbox" rows="1" cols="33"></textarea>
                     <div>LAST NAME</div>
@@ -66,6 +80,15 @@
 
 
                     <button type="button" class="contactbutton">Send</button>
+                </div>
+
+                <div class="contact-email">
+                    <h3>E M A I L</h3>
+                </div>
+
+                <div class="emailcontact" itemscope itemtype="https://schema.org/ContactPoint">
+                    <span itemprop="email">company.name@domain.com</span>     
+                    <span itemprop="telephone">TEL: 888-888-8888</span>
                 </div>
 
 
@@ -97,6 +120,9 @@
             
             </footer>
         </div>
+    </main>
+    <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     
 </body>
 </html>
