@@ -352,7 +352,7 @@ h1 {
     text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.6);
 }
 
-.banner {
+.mainbanner {
     width: 100%;
     height: 250px;
     background-image: url(../images/banner.jpg);
@@ -530,7 +530,6 @@ footer li {
 
 /*  --------------- skip link --------------- */
 .skip-link {
-        
     position: absolute;
     top: -30px;
     text-decoration: none;
@@ -541,7 +540,7 @@ footer li {
     top: auto;
     overflow: visible;
     padding: 10px;
-    background-color: var(--secondary-color);
+    background-color: var(--bs-secondary);
     color: black;
     text-align: center;
     text-decoration: none;
