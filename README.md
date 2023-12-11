@@ -19,7 +19,7 @@ A fourth challenge was my skip links not working, which was because of a bad spe
 
 After this semester of web dev, I am confident to say I have been able to improve drastically from the first semester, where I was struggling quite a bit, and I was always extremely stressed about the assignments.  Now, I am able to create a website much faster and better then last semester, without stressing too much.
 
-So far, this final assignment is the smoothest assignment I have done in web dev, even though it may be the most difficult.  I also believe it is the best looking website I have created, which i am quite happy about.
+So far, this final assignment is the smoothest assignment I have done in web dev, even though it may be the most difficult.  I also believe it is the best looking website I have created, which I am quite happy about.
 
 ##### Assets
 
